@@ -12,7 +12,7 @@ public class BuzzerComponent extends Component {
     /**
      * If no pin is specified by the user, the default BCM pin 18 is used.
      */
-    protected static final int DEFAULT_PIN = 18;
+    protected static final int DEFAULT_PIN = 23;
     protected final Pwm pwm;
 
     /**
